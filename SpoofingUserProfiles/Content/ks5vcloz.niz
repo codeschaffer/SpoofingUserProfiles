@@ -1,0 +1,106 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+
+
+/*-----------------------------------------------*/
+
+.navbar_logo {
+    color: white;
+    font-family: "bebasneue", sans-serif; 
+    font-size: 2em;
+    list-style: none;  
+    width: 70px;
+    height: 30px;
+    background-color: #0094ff;
+    /*position: absolute;*/
+}
+.navbar_logo p{
+    top: 100%;
+}
+
+
+.navbar_logo:link {
+    text-decoration: none;
+}
+.navbar_logo:visited {
+    text-decoration: none;
+}
+.navbar_logo:hover {
+    text-decoration: none;
+    color: red;
+}
+.navbar_logo:active {
+    text-decoration: none;
+}
+
+
+
+
+/*FONTS*/
+/*-----------------------------------------------*/
+    @font-face {
+        font-family: "Mario";
+        src: url(fonts/SuperMario256.ttf) format("truetype");
+    }
+    @font-face {
+        font-family: "code";
+        src: url(fonts/code.otf) format("truetype");
+    }
+    @font-face {
+        font-family: "steelfish";
+        src: url(fonts/steelfish.ttf) format("truetype");
+    }
+    @font-face {
+        font-family: "basictitle";
+        src: url(fonts/basictitlefont.ttf) format("truetype");
+    }
+    @font-face {
+        font-family: "primetime";
+        src: url(fonts/primetime.ttf) format("truetype");
+    }
+    @font-face {
+        font-family: "bebasneue";
+        src: url(Fonts/BebasNeue.otf) format("truetype");
+    }
+/*----------------------------------------*/

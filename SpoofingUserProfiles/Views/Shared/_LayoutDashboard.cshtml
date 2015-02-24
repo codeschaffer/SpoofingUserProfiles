@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/fonts")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            
+                <p>@Html.ActionLink("OneBox", "Index", "Home", null, new { @class = "navbar_logo" })</p>
+            
+            
+            </div>
+            <div class="navbar-collapse collapse">
+                @*<ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                </ul>*@
+
+                <div class="header_social_container">
+                    <div class="header_social_block_obvious">
+                        <p>Username</p>
+                        <p class="editprof">Edit Profile</p>
+                    </div>
+                    <div class="header_social_block"></div>
+                </div>
+
+               @* @Html.Partial("_LoginPartial")*@
+            </div>
+        </div>
+    </div>
+
+    <div class="secondaryNav">
+        <div class="secondaryNav_insideContainer">
+            <div class="social_block"></div>
+            <div class="social_block"></div>
+            <div class="social_block"></div>
+        </div>
+    </div>
+
+
+
+        <div class="main_body_dashboard">
+            @RenderBody()
+        </div>
+
+        <footer></footer>
+
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,173 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+
+
+/*-----------------------------------------------*/
+
+.navbar_logo {
+    color: white;
+    font-family: "bebasneue", sans-serif; 
+    font-size: 2.4em;
+    list-style: none;  
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 1);
+    margin-left: -100px;
+    margin-top: 3px;
+
+    /*background-color: #0094ff;*/
+    /*top: 10px;*/
+    /*position: absolute;*/
+}
+
+
+.navbar_logo p{
+     /*line-height:0px;*/
+     /*position: absolute;
+     top: 20%;*/
+}
+
+
+.navbar_logo:link {
+    text-decoration: none;
+}
+.navbar_logo:visited {
+    text-decoration: none;
+}
+.navbar_logo:hover {
+    text-decoration: none;
+    color: #0c9bdd;
+}
+.navbar_logo:active {
+    text-decoration: none;
+}
+
+
+.main_body {
+    width: 100%;
+    height: 840px;
+    background-color: grey;
+    /*padding-right: 15px;
+  padding-left: 15px;*/
+     padding-right: 40px;
+  padding-left: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  /*margin-bottom: -300px;*/
+}
+
+
+
+.homepage_logo_large {
+    width: 300px;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-image: url(images/ob2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-color: red;*/
+}
+
+
+
+
+
+
+
+
+/*-------------------------------------------------*/
+.register_rounded {
+    height: 500px;
+    width: 300px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/*FONTS*/
+/*-----------------------------------------------*/
+    @font-face {
+        font-family: "Mario";
+        src: url(fonts/SuperMario256.ttf) format("truetype");
+    }
+    @font-face {
+        font-family: "code";
+        src: url(fonts/code.otf) format("truetype");
+    }
+    @font-face {
+        font-family: "steelfish";
+        src: url(fonts/steelfish.ttf) format("truetype");
+    }
+    @font-face {
+        font-family: "basictitle";
+        src: url(fonts/basictitlefont.ttf) format("truetype");
+    }
+    @font-face {
+        font-family: "primetime";
+        src: url(fonts/primetime.ttf) format("truetype");
+    }
+    @font-face {
+        font-family: "bebasneue";
+        src: url(Fonts/BebasNeue.otf) format("truetype");
+    }
+/*----------------------------------------*/
+
+footer {
+    height: 50px;
+    width: 100%;
+    /*position: absolute;*/
+    bottom: 0px;
+    background-color: #1b1b1b;
+}

@@ -1,0 +1,15 @@
+﻿@*@model cschaffer_DataPersistenceV2_2.Product*@
+@model SpoofingUserProfiles.Models.ApplicationUser
+
+
+@{
+    ViewBag.Title = "ProfileTemplate";
+}
+
+<h2>ProfileTemplate</h2>
+
+@if (Model != null)
+{ 
+    <p>@Model.UserName</p>
+}
+
